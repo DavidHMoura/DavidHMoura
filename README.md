@@ -3,6 +3,7 @@
 [![x](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/AbaixoDeZero0)
 
 ![DavidHMoura GitHub stats](https://github-readme-stats.vercel.app/api?username=DavidHMoura&show_icons=true&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DavidHMoura&size_weight=0.5&count_weight=0.5)
 
 ## 💻 Tecnologias que uso no meu dia
 
