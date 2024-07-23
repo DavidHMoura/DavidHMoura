@@ -1,16 +1,17 @@
-## Hi there 👋
+# Hello There! 👾
+### 🇧🇷 - Olá, eu sou o David Moura
+### 🇺🇸 - hello, I'm David Moura
+[![instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/david.h.moura/)
+[![x](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/AbaixoDeZero0)
 
-<!--
-**DavidHMoura/DavidHMoura** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+![DavidHMoura GitHub stats](https://github-readme-stats.vercel.app/api?username=DavidHMoura&show_icons=true&theme=tokyonight)
 
-Here are some ideas to get you started:
+## Tecnologias que uso no meu dia
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<div style="display: inline_block"><br/>
+    <img align="center" alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+    <img align="center" alt="C#" src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" />
+    <img align="center" alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+</div><br/>
+
+### Apaixonado por tecnologia, programação, cibersegurança/Hardware Hacking e cibernética.
