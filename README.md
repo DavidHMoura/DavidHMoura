@@ -14,4 +14,4 @@
 </div><br/>
 
 # 🗿 Quem sou eu
-Me chamo David Moura, estudante de Engenhatia de Software, apaixonado por tecnologia, programação, Hardware Hacking e cibernética.
+Me chamo David Moura, estudante de Engenharia de Software, apaixonado por tecnologia, programação, Hardware Hacking e cibernética.
