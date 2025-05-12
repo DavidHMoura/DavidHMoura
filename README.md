@@ -15,13 +15,6 @@
     <img align="center" alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
 </div><br/>
 
-## 📌 Atividades Recentes
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
-
-## 📝 Últimos Posts
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
 
 # 🗿 Quem sou eu
 Me chamo David Moura, estudante de Engenharia de Software, apaixonado por tecnologia, programação, Hardware Hacking, Cibersegurança e robótica.
