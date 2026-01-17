@@ -4,8 +4,6 @@
 [![x](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/AbaixoDeZero0)
 [![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/david-henrique-moura-457063304/)
 
-![DavidHMoura GitHub stats](https://github-readme-stats.vercel.app/api?username=DavidHMoura&show_icons=true&theme=tokyonight)
-
 ## 💻 Tecnologias que uso no meu dia
 
 <div style="display: inline_block"><br/>
