@@ -3,7 +3,6 @@
 🎓 Software Engineering student | 💻 Back-end Developer | 🔐 Cybersecurity Enthusiast  
 
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/david.h.moura/)
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/AbaixoDeZero0)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/david-henrique-moura-457063304/)
 
 ---
