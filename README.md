@@ -38,9 +38,10 @@ I'm particularly interested in **application security (AppSec)** and in understa
 
 ---
 
-## 🚀 Goals
+🚀 Goals
 
-- Build a solid **back-end and AppSec-oriented portfolio**
-- Improve skills in **secure system design**
-- Grow professionally as a **back-end developer with security mindset**
-- Be prepared for **junior-level opportunities** in backend and application security
+- Build a strong back-end and AppSec-focused portfolio  
+- Deepen knowledge in secure system design and architecture  
+- Grow professionally as a back-end developer with a security-first mindset  
+- Be ready for junior-level roles in backend and application security  
+
