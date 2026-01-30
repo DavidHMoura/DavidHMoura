@@ -1,47 +1,45 @@
 👋 Hello, I'm David Moura
 
-**Back-end Developer | Java & Spring Boot | Application Security (AppSec)**
-
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/david.m0ura/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/david-henrique-moura-457063304/)
+**Software Engineer (Backend) | Java & Spring Boot | Application Security**
 
 ---
 
 ## 🧠 About Me
 
-I'm a back-end developer focused on building **secure and well-structured applications**. My main stack revolves around **Java and Spring Boot**, where I design **REST APIs** with attention to clean architecture, maintainability, and **security by design**.
+I'm a software engineer focused on building **backend systems with security in mind**.  
+My work is centered around **Java and Spring Boot**, where I design **RESTful APIs** with attention to clean architecture, maintainability, and **secure-by-design principles**.
 
-I'm particularly interested in **application security (AppSec)** and in understanding how vulnerabilities emerge in real systems — from authentication flaws to improper access control and misconfigurations. I approach software development as an **engineering discipline**, where clarity, security, and system behavior matter more than frameworks alone.
+I'm particularly interested in **Application Security (AppSec)** and in understanding how vulnerabilities arise in real-world systems — from authentication and authorization flaws to misconfigurations and insecure defaults.
+
+I see software development as an **engineering discipline**, where clarity, correctness, and system behavior matter more than trends or tools alone.
 
 ---
 
-## 🛠️ Technologies & Tools
+## 🛠️ Core Stack
 
-<div align="center">
-
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-<img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
-<img src="https://img.shields.io/badge/REST%20APIs-000000?style=for-the-badge&logo=api&logoColor=white" />
-<img src="https://img.shields.io/badge/Application%20Security-8A2BE2?style=for-the-badge&logo=security&logoColor=white" />
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-
-</div>
+- **Languages:** Java, Python  
+- **Backend:** Spring Boot, REST APIs  
+- **Security:** AppSec fundamentals, OWASP Top 10  
+- **Architecture:** Clean Architecture, layered systems  
+- **Environment:** Linux (Mint), Git, GitHub  
 
 ---
 
 ## 🎯 Current Focus
 
-- 🔐 Secure API development with **Spring Boot**
-- ⚙️ Back-end architecture and **clean code**
-- 🧪 **Application Security fundamentals (AppSec & OWASP Top 10)**
-- 🐧 Linux-based development environment (Linux Mint)
+- Designing **secure backend APIs**
+- Studying **application-level vulnerabilities**
+- Improving system architecture and code clarity
+- Building a portfolio focused on **backend & security**
 
 ---
 
-🚀 Goals
+## 🚀 Direction
 
-- Build a strong back-end and AppSec-focused portfolio  
-- Deepen knowledge in secure system design and architecture  
-- Grow professionally as a back-end developer with a security-first mindset  
-- Be ready for junior-level roles in backend and application security  
+- Contribute to backend systems where **security and reliability matter**
+- Grow as an engineer focused on **secure system design**
+- Work on projects that value **engineering decisions**, not just features
 
+---
+
+> *Building quietly. Thinking carefully. Securing what matters.*
