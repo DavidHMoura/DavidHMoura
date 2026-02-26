@@ -1,4 +1,4 @@
-# `[ ACCESSING DAVID MOURA'S CORE ]`
+# `[ ACCESSING DAVID MOURA'S PROFILE ]`
 
 ---
 
@@ -6,62 +6,67 @@
 
 **Software Engineer | Backend & Application Security (AppSec)**
 
-> "Intelligence is the ability to avoid doing work, yet getting the work done." — *Linus Torvalds*
+Software Engineer with extensive experience in building high-integrity, scalable, and inherently secure backend systems. My expertise centers on **Java/Spring Boot** architectures, with a strong focus on **Application Security (AppSec)**, **Zero Trust** principles, and **Stateless Security** models. I am committed to engineering excellence, advocating for clean code, resilient infrastructure, and a security-first approach throughout the software development lifecycle.
 
-I am a backend engineer focused on building high-integrity, secure-by-design systems. My work centers on **Java/Spring Boot** architectures, prioritizing **Zero Trust** principles and **stateless security**. Inspired by the efficiency of the Linux kernel and the cyberpunk ethos of building resilient digital infrastructures.
+- 🛠️ **Core Technologies:** Java 17/21, Spring Boot 3, Project Loom (Virtual Threads).
+- 🛡️ **Security Expertise:** JWT Stateless Auth, RBAC, OAuth2, OWASP Top 10 Hardening.
+- 🏗️ **Architecture:** Event-Driven Systems, Multi-Tenant Data Isolation, Microservices.
+- 🐧 **Infrastructure:** Linux Systems, Docker, Docker Compose, Flyway.
 
 ---
 
 ### `ROOT@DAVIDMOURA:~# SYSTEM_STATS`
 
-| CATEGORY | STATUS |
-| :--- | :--- |
-| **Backend Core** | `JAVA 21 / SPRING BOOT 3` |
-| **Security Layer** | `JWT / RBAC / OWASP TOP 10` |
-| **Infrastructure** | `LINUX / DOCKER / FLYWAY` |
-| **Data Engine** | `POSTGRESQL / PLAYWRIGHT` |
-
-**Language Mastery:**
-- `JAVA`       `[####################] 95%`
-- `SPRING`     `[###################-] 90%`
-- `SECURITY`   `[#################---] 85%`
-- `LINUX`      `[################----] 80%`
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=DavidHMoura&show_icons=true&theme=tokyonight&hide_border=true&title_color=00FF41&text_color=FFFFFF&icon_color=00FF41" alt="GitHub Stats" />
+  <br>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DavidHMoura&layout=compact&theme=tokyonight&hide_border=true&title_color=00FF41&text_color=FFFFFF&icon_color=00FF41" alt="Top Languages" />
+</p>
 
 ---
 
 ### `ROOT@DAVIDMOURA:~# LS -LA PROJECTS/`
 
-| Project | Status | Security Posture |
-| :--- | :--- | :--- |
-| **[compliance-risk-engine](https://github.com/DavidHMoura/compliance-risk-engine)** | `STABLE` | Zero Attack Surface, Audit Trail |
-| **[secure-auth-api](https://github.com/DavidHMoura/secure-auth-api)** | `STABLE` | Token Rotation, Reuse Detection |
-| **[sentinelops](https://github.com/DavidHMoura/sentinelops)** | `DEV` | Threat Ingestion, SOC-like |
+| Project | Status | Tech Stack | Security Posture |
+| :--- | :--- | :--- | :--- |
+| **[compliance-risk-engine](https://github.com/DavidHMoura/compliance-risk-engine)** | `STABLE` | Java 21, Playwright, PGSQL | Zero Attack Surface, Immutable Audit Log |
+| **[secure-auth-api](https://github.com/DavidHMoura/secure-auth-api)** | `STABLE` | Spring Security 6, JWT | Token Rotation, Token Reuse Detection |
+| **[sentinelops](https://github.com/DavidHMoura/sentinelops)** | `DEV` | Python, FastAPI, PostgreSQL | Threat Ingestion, SOC-like Alerting |
 
 ---
 
 ### `ROOT@DAVIDMOURA:~# TECH_STACK`
 
-- **Backend:** Java (Spring Boot, Project Loom), Python (FastAPI), C#
-- **Security:** JWT, RBAC, OAuth2, OWASP Hardening, Secret Management
-- **Infrastructure:** Linux (Kernel enthusiast), Docker, Docker Compose, Flyway
-- **Databases:** PostgreSQL, MySQL, H2 (Testing)
+<p align="left">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+</p>
+
+- **Security:** JWT, RBAC, OAuth2, BCrypt, Stateless Security, Audit Logging.
+- **Infrastructure:** Docker, Docker Compose, Linux (Kernel & Shell Scripting), Maven.
+- **Databases:** PostgreSQL 16, MySQL, H2 (Testing).
 
 ---
 
 ### `ROOT@DAVIDMOURA:~# CONNECT`
 
-- **LinkedIn:** [David H. Moura](https://www.linkedin.com/in/david-h-moura-457063304/)
-- **X (Twitter):** [@AbaixoDeZero0](https://twitter.com/AbaixoDeZero0)
-- **GitHub:** [DavidHMoura](https://github.com/DavidHMoura)
+<p align="left">
+  <a href="https://www.linkedin.com/in/david-h-moura-457063304/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://github.com/DavidHMoura?tab=followers"><img src="https://img.shields.io/github/followers/DavidHMoura?label=Followers&style=for-the-badge&color=00FF41&logo=github" /></a>
+</p>
 
 ---
 
 ### `ROOT@DAVIDMOURA:~# EXIT`
 
 ```bash
-# Encrypting connection...
-# Accessing secure-auth-api...
-# Logout successful.
+# Connection encrypted.
+# Identity verified.
+# Session closed.
 ```
 
 ---
