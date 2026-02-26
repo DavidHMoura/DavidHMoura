@@ -21,6 +21,9 @@ Software Engineer with extensive experience in building high-integrity, scalable
   <a href="https://github.com/DavidHMoura">
     <img src="https://streak-stats.demolab.com?user=DavidHMoura&theme=tokyonight&hide_border=true&ring=00FF41&fire=00FF41&currStreakNum=FFFFFF&sideNums=FFFFFF&sideLabels=00FF41&dates=FFFFFF" alt="GitHub Streak" />
   </a>
+  <a href="https://github.com/DavidHMoura">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DavidHMoura&layout=compact&theme=tokyonight&hide_border=true&title_color=00FF41&text_color=FFFFFF&icon_color=00FF41&cache_seconds=86400" alt="Top Languages" />
+  </a>
 </p>
 
 <p align="left">
