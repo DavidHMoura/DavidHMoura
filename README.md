@@ -22,7 +22,6 @@ Software Engineer with extensive experience in building high-integrity, scalable
   <br>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DavidHMoura&layout=compact&theme=tokyonight&hide_border=true&title_color=00FF41&text_color=FFFFFF&icon_color=00FF41" alt="Top Languages" />
 </p>
-
 ---
 
 ### `ROOT@DAVIDMOURA:~# LS -LA PROJECTS/`
