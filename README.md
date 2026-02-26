@@ -1,55 +1,78 @@
-# David Moura | Software Engineer (Backend & Security)
+# <p align="center"><code>[ SYSTEM ACCESS GRANTED ]</code></p>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/render?type=code&color=00FF41&height=150&section=header&text=DAVID%20MOURA&fontSize=70&animation=fadeIn&fontAlignY=35&desc=SOFTWARE%20ENGINEER%20|%20BACKEND%20&%20APPSEC&descSize=20&descAlignY=60" />
+</p>
 
-[![GitHub followers](https://img.shields.io/github/followers/DavidHMoura?style=social)](https://github.com/DavidHMoura)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/david-h-moura-457063304/)
+<p align="center">
+  <a href="https://www.linkedin.com/in/david-h-moura-457063304/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://github.com/DavidHMoura?tab=followers"><img src="https://img.shields.io/github/followers/DavidHMoura?label=Followers&style=for-the-badge&color=00FF41&logo=github" /></a>
+</p>
 
---- 
+---
 
-## 🚀 About Me
+### 🌐 `ROOT@DAVIDMOURA:~# WHOAMI`
 
-I'm a **Software Engineer** with a deep passion for building robust, scalable, and inherently secure backend systems. My expertise lies at the intersection of **Backend Development** and **Application Security (AppSec)**, where I focus on crafting solutions that not only perform efficiently but also stand resilient against modern threats.
+> **"Intelligence is the ability to avoid doing work, yet getting the work done."** — *Linus Torvalds*
 
-With a strong foundation in **Java** and **Spring Boot**, I specialize in designing architectures that prioritize **Zero Trust principles**, **stateless security**, and **data integrity**. I am committed to engineering excellence, advocating for clean code, pragmatic design, and a security-first mindset throughout the software development lifecycle.
+I am a **Backend Engineer** deeply immersed in the **Cyberpunk** ethos of building resilient, high-integrity systems. My focus is on **Application Security (AppSec)** and mission-critical backend architectures. Inspired by the philosophy of Linux and the power of open-source, I engineer solutions that are **Secure by Design** and **Performant by Default**.
 
---- 
+- 🛠️ **Core Engine:** Java / Spring Boot 3 / Project Loom
+- 🛡️ **Security Layer:** JWT Stateless Auth / RBAC / OWASP Hardening
+- 🐧 **Environment:** Linux Enthusiast & Shell Scripting
+- 🏗️ **Architecture:** Zero Trust / Event-Driven / Multi-Tenant Isolation
 
-## ✨ Featured Projects
+---
 
-Here are some of my key open-source contributions, showcasing my approach to secure and performant backend engineering:
+### 📊 `ROOT@DAVIDMOURA:~# SYSTEM_STATS`
 
-### 🛡️ [Compliance Risk Engine](https://github.com/DavidHMoura/compliance-risk-engine)
+<p align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=DavidHMoura&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&icon_color=00FF41&text_color=FFFFFF&title_color=00FF41" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DavidHMoura&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&title_color=00FF41&text_color=FFFFFF&icon_color=00FF41" />
+</p>
 
-> **Venture-grade background engine for automated compliance monitoring, liability risk mitigation, and target-company data extraction.**
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DavidHMoura&theme=tokyonight&hide_border=true&stroke=00FF41&ring=00FF41&fire=00FF41&currStreakLabel=00FF41" />
+</p>
 
-A headless, event-driven daemon built with **Java 21 (Virtual Threads)** and **Spring Boot 3**, leveraging **Playwright** for secure data extraction from government portals. This project exemplifies **Zero Attack Surface** design, multi-tenant data isolation, and immutable cryptographic audit logging, ensuring high integrity for critical compliance operations.
+---
 
-### 🔐 [Secure Auth API](https://github.com/DavidHMoura/secure-auth-api)
+### 📂 `ROOT@DAVIDMOURA:~# LS -LA PROJECTS/`
 
-> **Production-grade authentication and authorization API built with Spring Boot and Spring Security, focusing on stateless JWT, RBAC, and resilient security patterns.**
+| Repository | Status | Tech Stack | Security Focus |
+| :--- | :--- | :--- | :--- |
+| **[compliance-risk-engine](https://github.com/DavidHMoura/compliance-risk-engine)** | `ACTIVE` | Java 21, Playwright, PGSQL | Zero Attack Surface, Audit Log |
+| **[secure-auth-api](https://github.com/DavidHMoura/secure-auth-api)** | `STABLE` | Spring Security 6, JWT | Token Rotation, Reuse Detection |
+| **[sentinelops](https://github.com/DavidHMoura/sentinelops)** | `DEV` | Python, FastAPI, PGSQL | Threat Detection, Event Ingestion |
 
-A robust authentication service demonstrating advanced AppSec patterns, including **stateless JWT authentication**, **refresh token rotation with reuse detection**, **IP-based rate limiting** (Bucket4j), and **database-backed Role-Based Access Control (RBAC)**. It's engineered to prevent common vulnerabilities like broken authentication and brute-force attacks.
+---
 
---- 
+### 🛠️ `ROOT@DAVIDMOURA:~# TECH_STACK`
 
-## 🛠️ Technical Expertise
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+</p>
 
-| Category | Skills & Technologies |
-| :--- | :--- |
-| **Languages** | Java, Python, JavaScript, C# |
-| **Frameworks** | Spring Boot, Spring Security, FastAPI, React, Three.js |
-| **Databases** | PostgreSQL, MySQL, H2 |
-| **Security Concepts** | AppSec, OWASP Top 10, Zero Trust, JWT, RBAC, Rate Limiting, Secret Management, Audit Logging |
-| **Tools & Platforms** | Docker, Docker Compose, Maven, Git, GitHub Actions, Playwright |
-| **Cloud** | AWS (basics) |
+---
 
---- 
+### 📡 `ROOT@DAVIDMOURA:~# EXIT`
 
-## 🌐 Connect with Me
+```bash
+# Encrypting connection...
+# Accessing secure-auth-api...
+# Logout successful.
+```
 
-*   **LinkedIn:** [David H. Moura](https://www.linkedin.com/in/david-h-moura-457063304/)
-*   **GitHub:** [DavidHMoura](https://github.com/DavidHMoura)
-*   **X (Twitter):** [@AbaixoDeZero0](https://twitter.com/AbaixoDeZero0)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/DavidHMoura/DavidHMoura/main/github-contribution-grid-snake.svg" alt="Snake animation" />
+</p>
 
---- 
+---
 
-**Engineered with precision and security in mind.**
+<p align="center">
+  <b>"The world is not a safe place, but we can make it a secure one."</b>
+</p>
