@@ -17,11 +17,10 @@ Software Engineer with extensive experience in building high-integrity, scalable
 
 ### `ROOT@DAVIDMOURA:~# SYSTEM_STATS`
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=DavidHMoura&show_icons=true&theme=tokyonight&hide_border=true&title_color=00FF41&text_color=FFFFFF&icon_color=00FF41" alt="GitHub Stats" />
-  <br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DavidHMoura&layout=compact&theme=tokyonight&hide_border=true&title_color=00FF41&text_color=FFFFFF&icon_color=00FF41" alt="Top Languages" />
-</p>
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=DavidHMoura&show_icons=true&theme=tokyonight&hide_border=true&title_color=00FF41&text_color=FFFFFF&icon_color=00FF41&cache_seconds=86400)](https://github.com/DavidHMoura)
+
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=DavidHMoura&layout=compact&theme=tokyonight&hide_border=true&title_color=00FF41&text_color=FFFFFF&icon_color=00FF41&cache_seconds=86400)](https://github.com/DavidHMoura)
+
 ---
 
 ### `ROOT@DAVIDMOURA:~# LS -LA PROJECTS/`
@@ -36,14 +35,12 @@ Software Engineer with extensive experience in building high-integrity, scalable
 
 ### `ROOT@DAVIDMOURA:~# TECH_STACK`
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-</p>
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 - **Security:** JWT, RBAC, OAuth2, BCrypt, Stateless Security, Audit Logging.
 - **Infrastructure:** Docker, Docker Compose, Linux (Kernel & Shell Scripting), Maven.
@@ -53,10 +50,8 @@ Software Engineer with extensive experience in building high-integrity, scalable
 
 ### `ROOT@DAVIDMOURA:~# CONNECT`
 
-<p align="left">
-  <a href="https://www.linkedin.com/in/david-h-moura-457063304/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://github.com/DavidHMoura?tab=followers"><img src="https://img.shields.io/github/followers/DavidHMoura?label=Followers&style=for-the-badge&color=00FF41&logo=github" /></a>
-</p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/david-h-moura-457063304/)
+[![Followers](https://img.shields.io/github/followers/DavidHMoura?label=Followers&style=for-the-badge&color=00FF41&logo=github)](https://github.com/DavidHMoura?tab=followers)
 
 ---
 
@@ -66,10 +61,3 @@ Software Engineer with extensive experience in building high-integrity, scalable
 # Connection encrypted.
 # Identity verified.
 # Session closed.
-```
-
----
-
-<p align="center">
-  <b>"The world is not a safe place, but we can make it a secure one."</b>
-</p>
