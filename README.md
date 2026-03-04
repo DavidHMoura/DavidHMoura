@@ -51,8 +51,8 @@ Software Engineer with extensive experience in building high-integrity, scalable
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 
-- **Security:** JWT, RBAC, OAuth2, BCrypt, Stateless Security, Audit Logging.
-- **Infrastructure:** Docker, Docker Compose, Linux (Kernel & Shell Scripting), Maven.
+- **Security:** Rust (Memory Safety, Zero-Cost Abstractions), JWT, RBAC, OAuth2, Stateless Security.
+- **Infrastructure:** Linux (Kernel & Shell Scripting), Docker, Docker Compose, Cargo, Maven.
 - **Databases:** PostgreSQL 16, MySQL, H2 (Testing).
 
 ---
