@@ -4,14 +4,14 @@
 
 ### `ROOT@DAVIDMOURA:~# WHOAMI`
 
-**Software Engineer | Backend & Application Security (AppSec)**
+**Backend Architect | Cybersecurity Specialist | Rust Enthusiast**
 
-Software Engineer with extensive experience in building high-integrity, scalable, and inherently secure backend systems. My expertise centers on **Java/Spring Boot** architectures, with a strong focus on **Application Security (AppSec)**, **Zero Trust** principles, and **Stateless Security** models. I am committed to engineering excellence, advocating for clean code, resilient infrastructure, and a security-first approach throughout the software development lifecycle.
+Desenvolvedor Back-end com foco em sistemas de alta integridade, escalabilidade e segurança nativa. Minha jornada é guiada pela busca da excelência técnica (estilo Torvalds) e pela construção de arquiteturas que não apenas funcionam, mas resistem a adversidades. Especialista em ecossistema **Java/Spring**, atualmente migrando workloads críticos para **Rust** visando *memory safety* e performance extrema.
 
-- 🛠️ **Core Technologies:** Java 17/21, Spring Boot 3, Project Loom (Virtual Threads).
-- 🛡️ **Security Expertise:** JWT Stateless Auth, RBAC, OAuth2, OWASP Top 10 Hardening.
-- 🏗️ **Architecture:** Event-Driven Systems, Multi-Tenant Data Isolation, Microservices.
-- 🐧 **Infrastructure:** Linux Systems, Docker, Docker Compose, Flyway.
+- 🛠️ **Core Technologies:** Java 21 (Loom), Rust (Tokio/Axum), Spring Boot 3.4+.
+- 🛡️ **Cybersecurity:** DevSecOps, AppSec, Cryptography, Zero Trust Architecture.
+- 🐧 **Environment:** Linux Power User, Kernel Tinkering, Docker & Container Security.
+- 🎯 **Objective:** Engineering the most secure and efficient backend systems on the planet.
 
 ---
 
@@ -21,9 +21,6 @@ Software Engineer with extensive experience in building high-integrity, scalable
   <a href="https://github.com/DavidHMoura">
     <img src="https://streak-stats.demolab.com?user=DavidHMoura&theme=tokyonight&hide_border=true&ring=00FF41&fire=00FF41&currStreakNum=FFFFFF&sideNums=FFFFFF&sideLabels=00FF41&dates=FFFFFF" alt="GitHub Streak" />
   </a>
-</p>
-
-<p align="left">
   <a href="https://github.com/DavidHMoura">
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DavidHMoura&theme=tokyonight" alt="Profile Summary" />
   </a>
@@ -35,25 +32,27 @@ Software Engineer with extensive experience in building high-integrity, scalable
 
 | Project | Status | Tech Stack | Security Posture |
 | :--- | :--- | :--- | :--- |
-| **[compliance-risk-engine](https://github.com/DavidHMoura/compliance-risk-engine)** | `STABLE` | Java 21, Playwright, PGSQL | Zero Attack Surface, Immutable Audit Log |
-| **[secure-auth-api](https://github.com/DavidHMoura/secure-auth-api)** | `STABLE` | Spring Security 6, JWT | Token Rotation, Token Reuse Detection |
-| **[sentinelops](https://github.com/DavidHMoura/sentinelops)** | `DEV` | Python, FastAPI, PostgreSQL | Threat Ingestion, SOC-like Alerting |
+| **[compliance-risk-engine](https://github.com/DavidHMoura/compliance-risk-engine)** | `STABLE` | Java 21, Playwright | Zero Attack Surface, Immutable Audit Log |
+| **[secure-auth-api](https://github.com/DavidHMoura/secure-auth-api)** | `STABLE` | Spring Security 6, JWT | Token Rotation & Reuse Detection |
+| **[sentinelops](https://github.com/DavidHMoura/sentinelops)** | `HEAVILY_REFACTORING` | **Rust**, Axum, PostgreSQL | Memory Safe, Blazing Fast Threat Ingestion |
+| **[linux-security-scripts](https://github.com/DavidHMoura/...)** | `ACTIVE` | Bash, Rust | Hardening & OS Auditing |
 
 ---
 
 ### `ROOT@DAVIDMOURA:~# TECH_STACK`
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 
-- **Security:** Rust (Memory Safety, Zero-Cost Abstractions), JWT, RBAC, OAuth2, Stateless Security.
-- **Infrastructure:** Linux (Kernel & Shell Scripting), Docker, Docker Compose, Cargo, Maven.
-- **Databases:** PostgreSQL 16, MySQL, H2 (Testing).
+> **"Talk is cheap. Show me the code." — Linus Torvalds**
+
+* **Security Research:** Exploração de vulnerabilidades, Pentesting (Web/API), Rust for Security Tools.
+* **Backend Mastery:** Concorrência avançada em Java (Virtual Threads) e Rust (Async/Await).
+* **Infrastructure:** Linux Hardening, CI/CD seguro, Docker-scout/Trivy scanning.
 
 ---
 
@@ -67,6 +66,6 @@ Software Engineer with extensive experience in building high-integrity, scalable
 ### `ROOT@DAVIDMOURA:~# EXIT`
 
 ```bash
-# Connection encrypted.
-# Identity verified.
-# Session closed.
+# Connection encrypted via TLS 1.3
+# Identity: David Moura [Verified]
+# Session: Closed. 0 errors, 0 warnings.
