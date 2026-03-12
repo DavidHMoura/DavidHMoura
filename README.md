@@ -34,7 +34,7 @@ Desenvolvedor Back-end com foco em sistemas de alta integridade, escalabilidade 
 | :--- | :--- | :--- | :--- |
 | **[compliance-risk-engine](https://github.com/DavidHMoura/compliance-risk-engine)** | `STABLE` | Java 21, Playwright | Zero Attack Surface, Immutable Audit Log |
 | **[secure-auth-api](https://github.com/DavidHMoura/secure-auth-api)** | `STABLE` | Spring Security 6, JWT | Token Rotation & Reuse Detection |
-| **[sentinelops](https://github.com/DavidHMoura/sentinelops)** | `HEAVILY_REFACTORING` | **Rust**, Axum, PostgreSQL | Memory Safe, Blazing Fast Threat Ingestion |
+| **[sentinelops](https://github.com/DavidHMoura/sentinelopsproject)** | `HEAVILY_REFACTORING` | **Rust**, Axum, PostgreSQL | Memory Safe, Blazing Fast Threat Ingestion |
 | **[linux-security-scripts](https://github.com/DavidHMoura/...)** | `ACTIVE` | Bash, Rust | Hardening & OS Auditing |
 
 ---
