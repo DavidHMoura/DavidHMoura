@@ -1,0 +1,609 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 400" width="1500" height="400">
+<defs>
+  <filter id="gloM" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="gloL" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="gloS" x="-25%" y="-25%" width="150%" height="150%">
+    <feGaussianBlur stdDeviation="1.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="gloXL" x="-200%" y="-200%" width="500%" height="500%">
+    <feGaussianBlur stdDeviation="11" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="gloXXL" x="-300%" y="-300%" width="700%" height="700%">
+    <feGaussianBlur stdDeviation="18" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <!-- Panel gradient -->
+  <linearGradient id="panBg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#040c14"/>
+    <stop offset="100%" stop-color="#020508"/>
+  </linearGradient>
+  <!-- Hero gradient -->
+  <linearGradient id="heroBg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#050f1e"/>
+    <stop offset="45%" stop-color="#020a13"/>
+    <stop offset="100%" stop-color="#030c1a"/>
+  </linearGradient>
+  <!-- Ambient glows -->
+  <radialGradient id="glC" cx="50%" cy="50%" r="38%">
+    <stop offset="0%" stop-color="#00FF41" stop-opacity="0.1"/>
+    <stop offset="100%" stop-color="#00FF41" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="glL" cx="11%" cy="50%" r="24%">
+    <stop offset="0%" stop-color="#00D9FF" stop-opacity="0.07"/>
+    <stop offset="100%" stop-color="#00D9FF" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="glR" cx="89%" cy="50%" r="24%">
+    <stop offset="0%" stop-color="#9333ea" stop-opacity="0.08"/>
+    <stop offset="100%" stop-color="#9333ea" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="glHero" cx="50%" cy="45%" r="45%">
+    <stop offset="0%" stop-color="#00FF41" stop-opacity="0.04"/>
+    <stop offset="100%" stop-color="#00FF41" stop-opacity="0"/>
+  </radialGradient>
+  <!-- Grid pattern -->
+  <pattern id="grid" width="25" height="20" patternUnits="userSpaceOnUse">
+    <path d="M25 0L0 0 0 20" fill="none" stroke="#00D9FF" stroke-width="0.2"/>
+  </pattern>
+  <!-- Clip paths -->
+  <clipPath id="clt"><rect x="17" y="33" width="264" height="172"/></clipPath>
+  <clipPath id="cln"><rect x="17" y="235" width="264" height="150"/></clipPath>
+  <clipPath id="ccls"><rect x="294" y="33" width="194" height="172"/></clipPath>
+  <clipPath id="ccld"><rect x="294" y="235" width="194" height="150"/></clipPath>
+  <clipPath id="ccrm"><rect x="1010" y="33" width="190" height="172"/></clipPath>
+  <clipPath id="ccrt"><rect x="1010" y="235" width="190" height="150"/></clipPath>
+  <clipPath id="crtc"><rect x="1217" y="29" width="265" height="356"/></clipPath>
+</defs>
+
+<style>
+.m{font-family:'Courier New',Courier,monospace;font-size:7.5px}
+.m9{font-family:'Courier New',Courier,monospace;font-size:9px}
+.m8{font-family:'Courier New',Courier,monospace;font-size:8px}
+.tit{font-family:'Courier New',Courier,monospace;font-size:47px;font-weight:bold;letter-spacing:6px}
+.sub{font-family:'Courier New',Courier,monospace;font-size:18px;letter-spacing:3px}
+.tag{font-family:'Courier New',Courier,monospace;font-size:8.5px;letter-spacing:1.5px}
+.lbl{font-family:'Courier New',Courier,monospace;font-size:7px;letter-spacing:0.5px}
+.g{fill:#00FF41}.b{fill:#00D9FF}.p{fill:#c084fc}.w{fill:#cbd5e1}
+.dg{fill:#00FF41;opacity:.52}.db{fill:#00D9FF;opacity:.44}.dp{fill:#c084fc;opacity:.4}
+.red{fill:#f87171}.yel{fill:#fbbf24}.org{fill:#fb923c}
+@keyframes gT{0%,100%{filter:drop-shadow(0 0 4px #00FF41)drop-shadow(0 0 10px #00FF41)}50%{filter:drop-shadow(0 0 9px #00FF41)drop-shadow(0 0 22px #00FF41)}}
+@keyframes gS{0%,100%{filter:drop-shadow(0 0 3px #00D9FF)drop-shadow(0 0 7px #00D9FF)}50%{filter:drop-shadow(0 0 7px #00D9FF)drop-shadow(0 0 15px #00D9FF)}}
+.gta{animation:gT 3s ease-in-out infinite}
+.gsa{animation:gS 3.5s ease-in-out infinite}
+</style>
+
+<!-- ===================== BACKGROUND ===================== -->
+<rect width="1500" height="400" fill="#020406"/>
+<rect width="1500" height="400" fill="url(#glC)"/>
+<rect width="1500" height="400" fill="url(#glL)"/>
+<rect width="1500" height="400" fill="url(#glR)"/>
+<rect width="1500" height="400" fill="url(#grid)" opacity="0.07"/>
+<!-- Left edge vignette -->
+<rect width="60" height="400" fill="#020406" opacity="0.55"/>
+<!-- Right edge vignette -->
+<rect x="1440" width="60" height="400" fill="#020406" opacity="0.55"/>
+
+<!-- ===================== P1: LEFT TERMINAL ===================== -->
+<!-- x=17,y=17,w=264,h=190 -->
+<rect x="17" y="17" width="264" height="190" fill="url(#panBg)" rx="1"/>
+<rect x="17" y="17" width="264" height="190" fill="none" stroke="#00D9FF" stroke-width="0.6" rx="1" opacity="0.28"/>
+<!-- Header -->
+<rect x="17" y="17" width="264" height="16" fill="#00D9FF" fill-opacity="0.07" rx="1"/>
+<line x1="17" y1="33" x2="281" y2="33" stroke="#00D9FF" stroke-width="0.5" opacity="0.35"/>
+<!-- Window dots -->
+<circle cx="28" cy="25" r="2.5" fill="#00FF41" opacity="0.72">
+  <animate attributeName="opacity" values="0.8;0.35;0.8" dur="2.2s" repeatCount="indefinite"/>
+</circle>
+<circle cx="37" cy="25" r="2.5" fill="#fbbf24" opacity="0.68"/>
+<circle cx="46" cy="25" r="2.5" fill="#f87171" opacity="0.65"/>
+<text x="57" y="28" class="m b" opacity="0.65">// sys.monitor</text>
+<text x="248" y="28" class="m g" opacity="0.85" filter="url(#gloS)">LIVE</text>
+<!-- Scrolling terminal content (16 lines × 11px = 176px per set) -->
+<g clip-path="url(#clt)">
+  <g>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 -176" dur="16s" repeatCount="indefinite"/>
+    <!-- Set 1 — y=46..211 -->
+    <text x="22" y="46" class="m dg">[04:21:07] kernel: eth0 NIC Up 1000Mbps</text>
+    <text x="22" y="57" class="m dg">[04:21:08] systemd: sshd.service active</text>
+    <text x="22" y="68" class="m g" filter="url(#gloS)">[04:21:09] sshd: Accepted key root@::1</text>
+    <text x="22" y="79" class="m red">[04:21:10] iptables: DROP 94.102.49.190</text>
+    <text x="22" y="90" class="m red">[04:21:11] fail2ban: Ban 194.165.16.52</text>
+    <text x="22" y="101" class="m dg">[04:21:12] kernel: CPU0 temp=42C load=0.24</text>
+    <text x="22" y="112" class="m dg">[04:21:13] nginx: GET /api/v2/auth 200 3ms</text>
+    <text x="22" y="123" class="m g" filter="url(#gloS)">[04:21:14] postgres: conn ok 127.0.0.1</text>
+    <text x="22" y="134" class="m dg">[04:21:15] cron: backup.sh PID 4421 ok</text>
+    <text x="22" y="145" class="m dg">[04:21:16] wg0: handshake peer [::1] ok</text>
+    <text x="22" y="156" class="m yel">[04:21:17] firewall: probe 3.3.3.3 DROP</text>
+    <text x="22" y="167" class="m dg">[04:21:18] sentinel: threat_score=0.03 OK</text>
+    <text x="22" y="178" class="m dg">[04:21:19] rsyslog: rotate /var/log/auth</text>
+    <text x="22" y="189" class="m g" filter="url(#gloS)">[04:21:20] actix: SentinelOps v2 ready</text>
+    <text x="22" y="200" class="m dg">[04:21:21] auditd: syscall=execve uid=0</text>
+    <text x="22" y="211" class="m dg">[04:21:22] kernel: ICMP flood mitigated</text>
+    <!-- Set 2 — y=222..387 (seamless loop) -->
+    <text x="22" y="222" class="m dg">[04:21:07] kernel: eth0 NIC Up 1000Mbps</text>
+    <text x="22" y="233" class="m dg">[04:21:08] systemd: sshd.service active</text>
+    <text x="22" y="244" class="m g" filter="url(#gloS)">[04:21:09] sshd: Accepted key root@::1</text>
+    <text x="22" y="255" class="m red">[04:21:10] iptables: DROP 94.102.49.190</text>
+    <text x="22" y="266" class="m red">[04:21:11] fail2ban: Ban 194.165.16.52</text>
+    <text x="22" y="277" class="m dg">[04:21:12] kernel: CPU0 temp=42C load=0.24</text>
+    <text x="22" y="288" class="m dg">[04:21:13] nginx: GET /api/v2/auth 200 3ms</text>
+    <text x="22" y="299" class="m g" filter="url(#gloS)">[04:21:14] postgres: conn ok 127.0.0.1</text>
+    <text x="22" y="310" class="m dg">[04:21:15] cron: backup.sh PID 4421 ok</text>
+    <text x="22" y="321" class="m dg">[04:21:16] wg0: handshake peer [::1] ok</text>
+    <text x="22" y="332" class="m yel">[04:21:17] firewall: probe 3.3.3.3 DROP</text>
+    <text x="22" y="343" class="m dg">[04:21:18] sentinel: threat_score=0.03 OK</text>
+    <text x="22" y="354" class="m dg">[04:21:19] rsyslog: rotate /var/log/auth</text>
+    <text x="22" y="365" class="m g" filter="url(#gloS)">[04:21:20] actix: SentinelOps v2 ready</text>
+    <text x="22" y="376" class="m dg">[04:21:21] auditd: syscall=execve uid=0</text>
+    <text x="22" y="387" class="m dg">[04:21:22] kernel: ICMP flood mitigated</text>
+  </g>
+</g>
+<!-- Cursor line (static) -->
+<text x="22" y="202" class="m g">root@sentinel:~$<tspan> </tspan><tspan filter="url(#gloS)">▋<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.45;0.5;1" dur="1s" repeatCount="indefinite"/></tspan></text>
+
+<!-- ===================== P2: LEFT NETWORK ===================== -->
+<!-- x=17,y=219,w=264,h=168 -->
+<rect x="17" y="219" width="264" height="168" fill="url(#panBg)" rx="1"/>
+<rect x="17" y="219" width="264" height="168" fill="none" stroke="#00D9FF" stroke-width="0.6" rx="1" opacity="0.28"/>
+<rect x="17" y="219" width="264" height="16" fill="#00D9FF" fill-opacity="0.07" rx="1"/>
+<line x1="17" y1="235" x2="281" y2="235" stroke="#00D9FF" stroke-width="0.5" opacity="0.35"/>
+<text x="26" y="230" class="m b" opacity="0.65">// network.topology</text>
+<!-- Network edges (static + one animated dash) -->
+<!-- EXT→FW -->
+<line x1="60" y1="275" x2="98" y2="305" stroke="#f87171" stroke-width="0.7" opacity="0.45"/>
+<!-- FW→API -->
+<line x1="128" y1="299" x2="170" y2="272" stroke="#00FF41" stroke-width="0.7" opacity="0.45"/>
+<!-- FW→SRV -->
+<line x1="120" y1="316" x2="153" y2="345" stroke="#00D9FF" stroke-width="0.7" opacity="0.4"/>
+<!-- API→DB -->
+<line x1="186" y1="272" x2="228" y2="310" stroke="#00D9FF" stroke-width="0.6" opacity="0.38"/>
+<!-- SRV→DB -->
+<line x1="167" y1="350" x2="216" y2="322" stroke="#c084fc" stroke-width="0.6" opacity="0.38"/>
+<!-- Animated data flow FW→API -->
+<line x1="128" y1="299" x2="170" y2="272" stroke="#00FF41" stroke-width="1.4" opacity="0.75" stroke-dasharray="4 12">
+  <animate attributeName="stroke-dashoffset" from="16" to="0" dur="1.8s" repeatCount="indefinite"/>
+</line>
+<!-- Animated data flow API→DB -->
+<line x1="186" y1="272" x2="228" y2="310" stroke="#00D9FF" stroke-width="1.2" opacity="0.6" stroke-dasharray="4 12">
+  <animate attributeName="stroke-dashoffset" from="16" to="0" dur="2.4s" repeatCount="indefinite"/>
+</line>
+<!-- EXT node -->
+<circle cx="50" cy="270" r="12" fill="#0d0f0a" stroke="#f87171" stroke-width="0.9" opacity="0.8"/>
+<text x="50" y="273" class="m red" font-size="6.5" text-anchor="middle">EXT</text>
+<!-- FW node (central, larger) -->
+<circle cx="113" cy="308" r="17" fill="#050d14" stroke="#00D9FF" stroke-width="1" opacity="0.85"/>
+<circle cx="113" cy="308" r="13" fill="none" stroke="#00D9FF" stroke-width="0.3" opacity="0.4"/>
+<text x="113" y="312" class="m b" font-size="7" text-anchor="middle" filter="url(#gloS)">FW-01</text>
+<!-- API node -->
+<circle cx="180" cy="266" r="14" fill="#050d14" stroke="#00FF41" stroke-width="0.9" opacity="0.8">
+  <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" repeatCount="indefinite"/>
+</circle>
+<text x="180" y="270" class="m g" font-size="6.5" text-anchor="middle" filter="url(#gloS)">API</text>
+<!-- SRV node -->
+<circle cx="158" cy="351" r="12" fill="#050d14" stroke="#00D9FF" stroke-width="0.8" opacity="0.75"/>
+<text x="158" y="354" class="m db" font-size="6.5" text-anchor="middle">SRV</text>
+<!-- DB node -->
+<circle cx="228" cy="316" r="14" fill="#050d14" stroke="#c084fc" stroke-width="0.9" opacity="0.8"/>
+<text x="228" y="320" class="m p" font-size="6.5" text-anchor="middle" filter="url(#gloS)">DB</text>
+<!-- Status bar bottom -->
+<text x="22" y="381" class="lbl db">NODES: 5/5  ·  PKT: 1.2k/s  ·  LAT: 2ms</text>
+
+<!-- ===================== P3: CL PORT SCANNER ===================== -->
+<!-- x=294,y=17,w=194,h=190 -->
+<rect x="294" y="17" width="194" height="190" fill="url(#panBg)" rx="1"/>
+<rect x="294" y="17" width="194" height="190" fill="none" stroke="#00D9FF" stroke-width="0.6" rx="1" opacity="0.28"/>
+<rect x="294" y="17" width="194" height="16" fill="#00D9FF" fill-opacity="0.07" rx="1"/>
+<line x1="294" y1="33" x2="488" y2="33" stroke="#00D9FF" stroke-width="0.5" opacity="0.35"/>
+<text x="302" y="28" class="m b" opacity="0.65">// port.scanner</text>
+<!-- Scan line sweep animation -->
+<g clip-path="url(#ccls)">
+  <rect x="294" y="33" width="194" height="1.5" fill="#00FF41" opacity="0.12">
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 168" dur="3.5s" repeatCount="indefinite"/>
+  </rect>
+</g>
+<!-- Static scan content -->
+<text x="300" y="48" class="m b" opacity="0.5">TARGET: 10.0.0.0/24</text>
+<text x="300" y="59" class="m dg">HOST 10.0.0.1 [GATEWAY]</text>
+<line x1="300" y1="65" x2="482" y2="65" stroke="#00D9FF" stroke-width="0.4" opacity="0.25"/>
+<!-- Port entries -->
+<!-- Port 22 SSH OPEN -->
+<text x="300" y="77" class="m db">22   SSH  </text>
+<rect x="350" y="70" width="60" height="8" rx="1" fill="#0d1f14"/>
+<rect x="350" y="70" width="60" height="8" rx="1" fill="#00FF41" opacity="0.7" filter="url(#gloS)"/>
+<text x="416" y="77" class="m g" font-size="7" filter="url(#gloS)">OPEN</text>
+<!-- Port 80 HTTP OPEN -->
+<text x="300" y="90" class="m db">80   HTTP </text>
+<rect x="350" y="83" width="60" height="8" rx="1" fill="#0d1f14"/>
+<rect x="350" y="83" width="60" height="8" rx="1" fill="#00FF41" opacity="0.7" filter="url(#gloS)"/>
+<text x="416" y="90" class="m g" font-size="7" filter="url(#gloS)">OPEN</text>
+<!-- Port 443 HTTPS OPEN -->
+<text x="300" y="103" class="m db">443  HTTPS</text>
+<rect x="350" y="96" width="60" height="8" rx="1" fill="#0d1f14"/>
+<rect x="350" y="96" width="60" height="8" rx="1" fill="#00FF41" opacity="0.7" filter="url(#gloS)"/>
+<text x="416" y="103" class="m g" font-size="7" filter="url(#gloS)">OPEN</text>
+<!-- Port 8080 FILTERED -->
+<text x="300" y="116" class="m db">8080 HTTP*</text>
+<rect x="350" y="109" width="60" height="8" rx="1" fill="#0d1f14"/>
+<rect x="350" y="109" width="30" height="8" rx="1" fill="#fbbf24" opacity="0.55"/>
+<text x="416" y="116" class="m yel" font-size="7">FILT</text>
+<!-- Port 3306 MYSQL CLOSED -->
+<text x="300" y="129" class="m db">3306 MYSQL</text>
+<rect x="350" y="122" width="60" height="8" rx="1" fill="#0d1f14"/>
+<rect x="350" y="122" width="6" height="8" rx="1" fill="#f87171" opacity="0.4"/>
+<text x="416" y="129" class="m red" font-size="7">CLSD</text>
+<!-- Port 5432 POSTGRESQL OPEN -->
+<text x="300" y="142" class="m db">5432 PGSQL</text>
+<rect x="350" y="135" width="60" height="8" rx="1" fill="#0d1f14"/>
+<rect x="350" y="135" width="60" height="8" rx="1" fill="#00FF41" opacity="0.7" filter="url(#gloS)"/>
+<text x="416" y="142" class="m g" font-size="7" filter="url(#gloS)">OPEN</text>
+<!-- Port 6379 REDIS FILTERED -->
+<text x="300" y="155" class="m db">6379 REDIS</text>
+<rect x="350" y="148" width="60" height="8" rx="1" fill="#0d1f14"/>
+<rect x="350" y="148" width="22" height="8" rx="1" fill="#fbbf24" opacity="0.45"/>
+<text x="416" y="155" class="m yel" font-size="7">FILT</text>
+<line x1="300" y1="162" x2="482" y2="162" stroke="#00D9FF" stroke-width="0.4" opacity="0.25"/>
+<text x="300" y="174" class="m dg">VULNS: <tspan class="g" filter="url(#gloS)">0 CRITICAL</tspan></text>
+<text x="300" y="185" class="m g" filter="url(#gloS)">STATUS: SECURE ✓</text>
+<!-- Corner tick marks -->
+<path d="M294,17 L294,33" stroke="#00D9FF" stroke-width="0.5" opacity="0.6"/>
+<path d="M488,17 L488,33" stroke="#00D9FF" stroke-width="0.5" opacity="0.6"/>
+
+<!-- ===================== P4: CL DATA STREAM ===================== -->
+<!-- x=294,y=219,w=194,h=168 -->
+<rect x="294" y="219" width="194" height="168" fill="url(#panBg)" rx="1"/>
+<rect x="294" y="219" width="194" height="168" fill="none" stroke="#00D9FF" stroke-width="0.6" rx="1" opacity="0.28"/>
+<rect x="294" y="219" width="194" height="16" fill="#00D9FF" fill-opacity="0.07" rx="1"/>
+<line x1="294" y1="235" x2="488" y2="235" stroke="#00D9FF" stroke-width="0.5" opacity="0.35"/>
+<text x="302" y="230" class="m b" opacity="0.65">// data.stream</text>
+<!-- Scrolling hex dump (14 lines × 11px = 154px per set) -->
+<g clip-path="url(#ccld)">
+  <g>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 -154" dur="9s" repeatCount="indefinite"/>
+    <!-- Set 1 -->
+    <text x="299" y="248" class="m db">0000 4f52 4947 494e 3a61  ORIGIN:a</text>
+    <text x="299" y="259" class="m db">0008 7069 2e6c 6f63 616c  pi.local</text>
+    <text x="299" y="270" class="m db">0010 4175 7468 3a20 4265  Auth: Be</text>
+    <text x="299" y="281" class="m db">0018 6172 6572 2065 794a  arer eyJ</text>
+    <text x="299" y="292" class="m db">0020 6862 4763 694f 694a  hbGciOiJ</text>
+    <text x="299" y="303" class="m g" filter="url(#gloS)">0028 4955 7a49 314e 694a  IUzI1NiJ</text>
+    <text x="299" y="314" class="m db">0030 3900 7374 6174 7573  9.status</text>
+    <text x="299" y="325" class="m db">0038 3a20 3230 3020 4f4b  : 200 OK</text>
+    <text x="299" y="336" class="m db">0040 436f 6e74 656e 742d  Content-</text>
+    <text x="299" y="347" class="m db">0048 5479 7065 3a20 6170  Type: ap</text>
+    <text x="299" y="358" class="m db">0050 706c 6963 6174 696f  plicatio</text>
+    <text x="299" y="369" class="m g" filter="url(#gloS)">0058 6e2f 6a73 6f6e 202e  n/json .</text>
+    <text x="299" y="380" class="m db">0060 2e00 7468 7265 6174  ..threat</text>
+    <text x="299" y="391" class="m db">0068 5f73 636f 7265 3a20  _score: </text>
+    <!-- Set 2 -->
+    <text x="299" y="402" class="m db">0000 4f52 4947 494e 3a61  ORIGIN:a</text>
+    <text x="299" y="413" class="m db">0008 7069 2e6c 6f63 616c  pi.local</text>
+    <text x="299" y="424" class="m db">0010 4175 7468 3a20 4265  Auth: Be</text>
+    <text x="299" y="435" class="m db">0018 6172 6572 2065 794a  arer eyJ</text>
+    <text x="299" y="446" class="m db">0020 6862 4763 694f 694a  hbGciOiJ</text>
+    <text x="299" y="457" class="m g" filter="url(#gloS)">0028 4955 7a49 314e 694a  IUzI1NiJ</text>
+    <text x="299" y="468" class="m db">0030 3900 7374 6174 7573  9.status</text>
+    <text x="299" y="479" class="m db">0038 3a20 3230 3020 4f4b  : 200 OK</text>
+    <text x="299" y="490" class="m db">0040 436f 6e74 656e 742d  Content-</text>
+    <text x="299" y="501" class="m db">0048 5479 7065 3a20 6170  Type: ap</text>
+    <text x="299" y="512" class="m db">0050 706c 6963 6174 696f  plicatio</text>
+    <text x="299" y="523" class="m g" filter="url(#gloS)">0058 6e2f 6a73 6f6e 202e  n/json .</text>
+    <text x="299" y="534" class="m db">0060 2e00 7468 7265 6174  ..threat</text>
+    <text x="299" y="545" class="m db">0068 5f73 636f 7265 3a20  _score: </text>
+  </g>
+</g>
+
+<!-- ===================== P5: CENTER HERO ===================== -->
+<!-- x=503,y=13,w=494,h=374 — center=(750,200) -->
+<rect x="503" y="13" width="494" height="374" fill="url(#heroBg)" rx="1"/>
+<rect x="503" y="13" width="494" height="374" fill="url(#glHero)"/>
+<rect x="503" y="13" width="494" height="374" fill="none" stroke="#00D9FF" stroke-width="0.8" rx="1" opacity="0.32"/>
+<!-- Inner subtle grid in hero -->
+<rect x="503" y="13" width="494" height="374" fill="url(#grid)" opacity="0.04"/>
+<!-- Corner brackets — large outer -->
+<path d="M503,38 L503,13 L528,13" fill="none" stroke="#00D9FF" stroke-width="1.8" opacity="0.85" filter="url(#gloS)"/>
+<path d="M969,13 L997,13 L997,38" fill="none" stroke="#00D9FF" stroke-width="1.8" opacity="0.85" filter="url(#gloS)"/>
+<path d="M503,362 L503,387 L528,387" fill="none" stroke="#00D9FF" stroke-width="1.8" opacity="0.85" filter="url(#gloS)"/>
+<path d="M969,387 L997,387 L997,362" fill="none" stroke="#00D9FF" stroke-width="1.8" opacity="0.85" filter="url(#gloS)"/>
+<!-- Corner brackets — inner smaller -->
+<path d="M514,50 L514,24 L540,24" fill="none" stroke="#00D9FF" stroke-width="0.7" opacity="0.4"/>
+<path d="M957,24 L983,24 L983,50" fill="none" stroke="#00D9FF" stroke-width="0.7" opacity="0.4"/>
+<path d="M514,350 L514,376 L540,376" fill="none" stroke="#00D9FF" stroke-width="0.7" opacity="0.4"/>
+<path d="M957,376 L983,376 L983,350" fill="none" stroke="#00D9FF" stroke-width="0.7" opacity="0.4"/>
+<!-- Hero header bar -->
+<rect x="503" y="13" width="494" height="17" fill="#00D9FF" fill-opacity="0.06" rx="1"/>
+<line x1="503" y1="30" x2="997" y2="30" stroke="#00D9FF" stroke-width="0.5" opacity="0.35"/>
+<text x="750" y="25" class="m b" opacity="0.55" text-anchor="middle">[ OPERATOR_TERMINAL // AUTHENTICATED ]</text>
+<!-- Status dot -->
+<circle cx="516" cy="21" r="2.5" fill="#00FF41" opacity="0.8" filter="url(#gloS)">
+  <animate attributeName="opacity" values="0.9;0.3;0.9" dur="2.2s" repeatCount="indefinite"/>
+</circle>
+<circle cx="984" cy="21" r="2.5" fill="#00FF41" opacity="0.8" filter="url(#gloS)">
+  <animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.2s" repeatCount="indefinite"/>
+</circle>
+<!-- Decorative top horizontal line -->
+<line x1="540" y1="45" x2="960" y2="45" stroke="#00D9FF" stroke-width="0.4" opacity="0.2"/>
+<!-- Session ID row -->
+<text x="750" y="58" class="lbl db" text-anchor="middle" opacity="0.7">uid: david.moura  ·  session: 0xA8F3D2  ·  role: security.engineer</text>
+<!-- Decorative section divider -->
+<line x1="555" y1="68" x2="710" y2="68" stroke="#00D9FF" stroke-width="0.4" opacity="0.22"/>
+<text x="750" y="72" class="lbl b" text-anchor="middle" opacity="0.4">═══ IDENTITY ═══</text>
+<line x1="790" y1="68" x2="945" y2="68" stroke="#00D9FF" stroke-width="0.4" opacity="0.22"/>
+
+<!-- ═══ MAIN TITLE — DAVID MOURA ═══ -->
+<!-- Glow ghost layers -->
+<text x="750" y="153" class="tit" text-anchor="middle" fill="#00FF41" filter="url(#gloXXL)" opacity="0.35">DAVID MOURA</text>
+<text x="750" y="153" class="tit" text-anchor="middle" fill="#00FF41" filter="url(#gloXL)" opacity="0.5">DAVID MOURA</text>
+<text x="750" y="153" class="tit" text-anchor="middle" fill="#00FF41" filter="url(#gloL)" opacity="0.7">DAVID MOURA</text>
+<!-- Main crisp title -->
+<text x="750" y="153" class="tit gta" text-anchor="middle" fill="#00FF41">DAVID MOURA</text>
+
+<!-- ═══ SUBTITLE ═══ -->
+<!-- Glow ghost -->
+<text x="750" y="183" class="sub" text-anchor="middle" fill="#00D9FF" filter="url(#gloL)" opacity="0.5">// BACKEND &amp; SECURITY</text>
+<!-- Main subtitle -->
+<text x="750" y="183" class="sub gsa" text-anchor="middle" fill="#00D9FF">// BACKEND &amp; SECURITY</text>
+
+<!-- Divider line with ornaments -->
+<line x1="530" y1="198" x2="960" y2="198" stroke="#00D9FF" stroke-width="0.5" opacity="0.25"/>
+<circle cx="530" cy="198" r="2" fill="#00D9FF" opacity="0.5"/>
+<circle cx="960" cy="198" r="2" fill="#00D9FF" opacity="0.5"/>
+<circle cx="750" cy="198" r="2.5" fill="#00D9FF" opacity="0.6" filter="url(#gloS)"/>
+
+<!-- ═══ TAG BADGES ROW 1 ═══ -->
+<!-- [JAVA] [RUST] [LINUX] [PENTESTING] [ACTIX] -->
+<rect x="612" y="208" width="36" height="13" rx="1" fill="none" stroke="#00D9FF" stroke-width="0.7" opacity="0.65"/>
+<text x="630" y="218" class="tag b" text-anchor="middle">JAVA</text>
+
+<rect x="655" y="208" width="36" height="13" rx="1" fill="none" stroke="#fb923c" stroke-width="0.7" opacity="0.65"/>
+<text x="673" y="218" class="tag org" text-anchor="middle">RUST</text>
+
+<rect x="698" y="208" width="40" height="13" rx="1" fill="none" stroke="#00FF41" stroke-width="0.7" opacity="0.55"/>
+<text x="718" y="218" class="tag dg" text-anchor="middle">LINUX</text>
+
+<rect x="745" y="208" width="72" height="13" rx="1" fill="none" stroke="#f87171" stroke-width="0.7" opacity="0.6"/>
+<text x="781" y="218" class="tag red" text-anchor="middle">PENTESTING</text>
+
+<rect x="824" y="208" width="40" height="13" rx="1" fill="none" stroke="#00FF41" stroke-width="0.7" opacity="0.55"/>
+<text x="844" y="218" class="tag dg" text-anchor="middle">ACTIX</text>
+
+<!-- ═══ TAG BADGES ROW 2 ═══ -->
+<!-- [POSTGRESQL] [LINUX_MINT] [NMAP] [SUPABASE] -->
+<rect x="607" y="228" width="68" height="13" rx="1" fill="none" stroke="#00D9FF" stroke-width="0.6" opacity="0.5"/>
+<text x="641" y="238" class="tag db" text-anchor="middle">POSTGRESQL</text>
+
+<rect x="682" y="228" width="68" height="13" rx="1" fill="none" stroke="#00FF41" stroke-width="0.6" opacity="0.5"/>
+<text x="716" y="238" class="tag dg" text-anchor="middle">LINUX_MINT</text>
+
+<rect x="757" y="228" width="36" height="13" rx="1" fill="none" stroke="#f87171" stroke-width="0.6" opacity="0.5"/>
+<text x="775" y="238" class="tag red" text-anchor="middle">NMAP</text>
+
+<rect x="800" y="228" width="56" height="13" rx="1" fill="none" stroke="#c084fc" stroke-width="0.6" opacity="0.5"/>
+<text x="828" y="238" class="tag dp" text-anchor="middle">SUPABASE</text>
+
+<!-- ═══ STATUS SECTION ═══ -->
+<line x1="540" y1="252" x2="960" y2="252" stroke="#00D9FF" stroke-width="0.35" opacity="0.18"/>
+<!-- Status row -->
+<circle cx="572" cy="264" r="3" fill="#00FF41" opacity="0.8" filter="url(#gloS)">
+  <animate attributeName="opacity" values="0.9;0.4;0.9" dur="2.5s" repeatCount="indefinite"/>
+</circle>
+<text x="581" y="268" class="m8 g" filter="url(#gloS)">ONLINE</text>
+<text x="626" y="268" class="m8 db" opacity="0.5">·</text>
+<text x="635" y="268" class="m8 db">UPTIME: 47d 12h 33m</text>
+<text x="753" y="268" class="m8 db" opacity="0.5">·</text>
+<text x="762" y="268" class="m8 db">TARGETS: 3 ACTIVE</text>
+<text x="880" y="268" class="m8 db" opacity="0.5">·</text>
+<circle cx="893" cy="264" r="2.5" fill="#fbbf24" opacity="0.7"/>
+<text x="900" y="268" class="m8 yel">2 ALERTS</text>
+
+<!-- ═══ MINI METRICS ═══ -->
+<!-- Threat score gauge -->
+<text x="570" y="288" class="lbl db" opacity="0.55">THREAT</text>
+<rect x="615" y="282" width="60" height="6" rx="1" fill="#0d1520"/>
+<rect x="615" y="282" width="5" height="6" rx="1" fill="#00FF41" opacity="0.7"/>
+<text x="680" y="288" class="lbl g" opacity="0.7">0.03</text>
+
+<text x="715" y="288" class="lbl db" opacity="0.55">EVENTS/s</text>
+<rect x="763" y="282" width="60" height="6" rx="1" fill="#0d1520"/>
+<rect x="763" y="282" width="36" height="6" rx="1" fill="#00D9FF" opacity="0.55"/>
+<text x="828" y="288" class="lbl b" opacity="0.7">142</text>
+
+<text x="855" y="288" class="lbl db" opacity="0.55">COVERAGE</text>
+<rect x="910" y="282" width="46" height="6" rx="1" fill="#0d1520"/>
+<rect x="910" y="282" width="38" height="6" rx="1" fill="#c084fc" opacity="0.5"/>
+<text x="960" y="288" class="lbl p" opacity="0.6">83%</text>
+
+<!-- ═══ LOCATION / STATUS LINE ═══ -->
+<line x1="540" y1="304" x2="960" y2="304" stroke="#00D9FF" stroke-width="0.35" opacity="0.15"/>
+
+<!-- Binary rain decorative strip at bottom of center -->
+<text x="518" y="322" class="lbl" fill="#00FF41" opacity="0.12">01001000 01000101 01001100 01001100 01001111 00100000 01010111 01001111 01010010 01001100 01000100</text>
+<text x="518" y="332" class="lbl" fill="#00D9FF" opacity="0.1">10110100 00110010 11001011 01011010 10001111 00101101 11110000 10100110 01101100 00011011 10101010</text>
+
+<!-- Location & roadmap -->
+<text x="750" y="350" class="lbl db" text-anchor="middle" opacity="0.55">// belo.jardim, PE  →  joão.pessoa / campina.grande : oct.2026</text>
+<!-- Bottom OS info -->
+<text x="750" y="365" class="lbl" text-anchor="middle" fill="#00FF41" opacity="0.38">
+  GNU/Linux · Mint  ·  JVM-21  ·  Rust-1.79  ·  PostgreSQL-16  ·  Actix-web
+</text>
+<!-- Bottom horizontal rule -->
+<line x1="540" y1="374" x2="960" y2="374" stroke="#00D9FF" stroke-width="0.4" opacity="0.18"/>
+<text x="750" y="383" class="lbl db" text-anchor="middle" opacity="0.35">[ SENTINELOPS // BACKEND.SECURITY.ENGINEERING ]</text>
+
+<!-- ===================== P6: CR SYSTEM MONITOR ===================== -->
+<!-- x=1010,y=17,w=190,h=190 -->
+<rect x="1010" y="17" width="190" height="190" fill="url(#panBg)" rx="1"/>
+<rect x="1010" y="17" width="190" height="190" fill="none" stroke="#00D9FF" stroke-width="0.6" rx="1" opacity="0.28"/>
+<rect x="1010" y="17" width="190" height="16" fill="#00D9FF" fill-opacity="0.07" rx="1"/>
+<line x1="1010" y1="33" x2="1200" y2="33" stroke="#00D9FF" stroke-width="0.5" opacity="0.35"/>
+<text x="1018" y="28" class="m b" opacity="0.65">// sys.monitor</text>
+<!-- Host info -->
+<text x="1016" y="47" class="m db">hostname: sentinelops-01</text>
+<text x="1016" y="58" class="m db">uptime:   47d 12h 33m</text>
+<line x1="1016" y1="64" x2="1194" y2="64" stroke="#00D9FF" stroke-width="0.4" opacity="0.22"/>
+<!-- Resource bars -->
+<!-- CPU -->
+<text x="1016" y="76" class="m db">CPU </text>
+<rect x="1044" y="70" width="90" height="8" rx="1" fill="#0d1520"/>
+<rect x="1044" y="70" width="74" height="8" rx="1" fill="#00FF41" opacity="0.6" filter="url(#gloS)"/>
+<text x="1141" y="77" class="m g" font-size="7">83%</text>
+<!-- MEM -->
+<text x="1016" y="90" class="m db">MEM </text>
+<rect x="1044" y="84" width="90" height="8" rx="1" fill="#0d1520"/>
+<rect x="1044" y="84" width="55" height="8" rx="1" fill="#00D9FF" opacity="0.55"/>
+<text x="1141" y="91" class="m b" font-size="7">61%</text>
+<!-- NET -->
+<text x="1016" y="104" class="m db">NET </text>
+<rect x="1044" y="98" width="90" height="8" rx="1" fill="#0d1520"/>
+<rect x="1044" y="98" width="65" height="8" rx="1" fill="#c084fc" opacity="0.5"/>
+<text x="1141" y="105" class="m p" font-size="7">72%</text>
+<!-- DSK -->
+<text x="1016" y="118" class="m db">DSK </text>
+<rect x="1044" y="112" width="90" height="8" rx="1" fill="#0d1520"/>
+<rect x="1044" y="112" width="34" height="8" rx="1" fill="#00D9FF" opacity="0.4"/>
+<text x="1141" y="119" class="m b" font-size="7">38%</text>
+<line x1="1016" y1="126" x2="1194" y2="126" stroke="#00D9FF" stroke-width="0.4" opacity="0.22"/>
+<!-- Process info -->
+<text x="1016" y="138" class="m db">PROC: <tspan class="g" filter="url(#gloS)">247</tspan></text>
+<text x="1100" y="138" class="m db">THR: <tspan class="g">1832</tspan></text>
+<text x="1016" y="150" class="m db">CONN: <tspan class="b">14</tspan></text>
+<text x="1100" y="150" class="m db"> FD: <tspan class="b">2048</tspan></text>
+<line x1="1016" y1="157" x2="1194" y2="157" stroke="#00D9FF" stroke-width="0.4" opacity="0.22"/>
+<!-- Stack info -->
+<text x="1016" y="169" class="m db">RUST<tspan class="g"> 1.79</tspan></text>
+<text x="1095" y="169" class="m db">JAVA<tspan class="b"> 21</tspan></text>
+<text x="1016" y="181" class="m db">PG<tspan class="b"> 16</tspan></text>
+<text x="1095" y="181" class="m db">ACTIX<tspan class="g"> 4</tspan></text>
+<text x="1016" y="193" class="m db">NGINX<tspan class="b"> 1.26</tspan></text>
+<text x="1095" y="193" class="m db">wg<tspan class="g"> 1.0</tspan></text>
+<text x="1016" y="202" class="m dg" font-size="7">sentinel@01:~$<tspan filter="url(#gloS)">▋<animate attributeName="opacity" values="1;0" calcMode="discrete" dur="1s" repeatCount="indefinite"/></tspan></text>
+
+<!-- ===================== P7: CR THREAT INTEL ===================== -->
+<!-- x=1010,y=219,w=190,h=168 -->
+<rect x="1010" y="219" width="190" height="168" fill="url(#panBg)" rx="1"/>
+<rect x="1010" y="219" width="190" height="168" fill="none" stroke="#00D9FF" stroke-width="0.6" rx="1" opacity="0.28"/>
+<rect x="1010" y="219" width="190" height="16" fill="#00D9FF" fill-opacity="0.07" rx="1"/>
+<line x1="1010" y1="235" x2="1200" y2="235" stroke="#00D9FF" stroke-width="0.5" opacity="0.35"/>
+<text x="1018" y="230" class="m b" opacity="0.65">// threat.intel</text>
+<text x="1018" y="247" class="m db">SCANNING...</text>
+<line x1="1016" y1="252" x2="1194" y2="252" stroke="#00D9FF" stroke-width="0.35" opacity="0.22"/>
+<!-- Threat checks -->
+<text x="1016" y="264" class="m yel">[!] BRUTE_FORCE </text><text x="1128" y="264" class="m yel" font-size="7">2x detected</text>
+<text x="1016" y="276" class="m g" filter="url(#gloS)">[✓] SQLI_PATTERN </text><text x="1128" y="276" class="m dg" font-size="7">clean</text>
+<text x="1016" y="288" class="m g" filter="url(#gloS)">[✓] XSS_VECTORS  </text><text x="1128" y="288" class="m dg" font-size="7">clean</text>
+<text x="1016" y="300" class="m g" filter="url(#gloS)">[✓] PATH_TRAVERSAL</text><text x="1128" y="300" class="m dg" font-size="7">clean</text>
+<text x="1016" y="312" class="m yel">[!] PORT_SCAN    </text><text x="1128" y="312" class="m yel" font-size="7">external</text>
+<text x="1016" y="324" class="m g" filter="url(#gloS)">[✓] CSRF_TOKENS  </text><text x="1128" y="324" class="m dg" font-size="7">valid</text>
+<text x="1016" y="336" class="m g" filter="url(#gloS)">[✓] JWT_VERIFY   </text><text x="1128" y="336" class="m dg" font-size="7">ok</text>
+<line x1="1016" y1="343" x2="1194" y2="343" stroke="#00D9FF" stroke-width="0.35" opacity="0.22"/>
+<!-- Risk score -->
+<text x="1016" y="355" class="m db">RISK: </text>
+<rect x="1050" y="349" width="90" height="7" rx="1" fill="#0d1520"/>
+<rect x="1050" y="349" width="11" height="7" rx="1" fill="#00FF41" opacity="0.7" filter="url(#gloS)"/>
+<text x="1145" y="355" class="m g" font-size="7" filter="url(#gloS)">0.12</text>
+<text x="1016" y="368" class="m g" filter="url(#gloS)">STATUS: MONITORING</text>
+<circle cx="1180" cy="363" r="3" fill="#fbbf24" opacity="0.75">
+  <animate attributeName="opacity" values="0.8;0.2;0.8" dur="1.8s" repeatCount="indefinite"/>
+</circle>
+<text x="1016" y="380" class="m dg">NEXT_SCAN: 00:04:23</text>
+
+<!-- ===================== P8: RIGHT TERMINAL ===================== -->
+<!-- x=1217,y=13,w=265,h=374 -->
+<rect x="1217" y="13" width="265" height="374" fill="url(#panBg)" rx="1"/>
+<rect x="1217" y="13" width="265" height="374" fill="none" stroke="#00D9FF" stroke-width="0.6" rx="1" opacity="0.28"/>
+<rect x="1217" y="13" width="265" height="16" fill="#00D9FF" fill-opacity="0.07" rx="1"/>
+<line x1="1217" y1="29" x2="1482" y2="29" stroke="#00D9FF" stroke-width="0.5" opacity="0.35"/>
+<!-- Window dots -->
+<circle cx="1228" cy="21" r="2.5" fill="#00FF41" opacity="0.7"/>
+<circle cx="1237" cy="21" r="2.5" fill="#fbbf24" opacity="0.65"/>
+<circle cx="1246" cy="21" r="2.5" fill="#f87171" opacity="0.65"/>
+<text x="1257" y="25" class="m b" opacity="0.6">// sentinelops.rs</text>
+<!-- Scrolling code (30 lines × 11px = 330px per set) -->
+<g clip-path="url(#crtc)">
+  <g>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 -330" dur="26s" repeatCount="indefinite"/>
+    <!-- Set 1 — y=42..372 -->
+    <text x="1223" y="42"  class="m db">// SentinelOps v2.1 — security core</text>
+    <text x="1223" y="53"  class="m db">use actix_web::{web, App};</text>
+    <text x="1223" y="64"  class="m db">use sqlx::PgPool;</text>
+    <text x="1223" y="75"  class="m db">use tracing::{info, warn, error};</text>
+    <text x="1223" y="86"  class="m db"> </text>
+    <text x="1223" y="97"  class="m dg">#[derive(Debug, Deserialize)]</text>
+    <text x="1223" y="108" class="m b" filter="url(#gloS)">pub struct ThreatEvent {</text>
+    <text x="1223" y="119" class="m db">    pub source_ip: String,</text>
+    <text x="1223" y="130" class="m db">    pub event_type: EventKind,</text>
+    <text x="1223" y="141" class="m db">    pub severity: f32,</text>
+    <text x="1223" y="152" class="m db">    pub timestamp: i64,</text>
+    <text x="1223" y="163" class="m b" filter="url(#gloS)">}</text>
+    <text x="1223" y="174" class="m db"> </text>
+    <text x="1223" y="185" class="m dg">pub async fn ingest_event(</text>
+    <text x="1223" y="196" class="m db">    pool: web::Data&lt;PgPool&gt;,</text>
+    <text x="1223" y="207" class="m db">    ev: web::Json&lt;ThreatEvent&gt;,</text>
+    <text x="1223" y="218" class="m dg">) -&gt; impl Responder {</text>
+    <text x="1223" y="229" class="m db">    let score = analyze(&amp;ev).await;</text>
+    <text x="1223" y="240" class="m db">    if score &gt; CRIT_THRESHOLD {</text>
+    <text x="1223" y="251" class="m yel">        warn!("THREAT: {}", ev.ip);</text>
+    <text x="1223" y="262" class="m db">        trigger_alert(&amp;ev).await;</text>
+    <text x="1223" y="273" class="m db">    }</text>
+    <text x="1223" y="284" class="m db">    sqlx::query!(</text>
+    <text x="1223" y="295" class="m db">        "INSERT INTO events ..."</text>
+    <text x="1223" y="306" class="m db">    ).execute(&amp;**pool).await?;</text>
+    <text x="1223" y="317" class="m g" filter="url(#gloS)">    info!("score={:.3}", score);</text>
+    <text x="1223" y="328" class="m db">    HttpResponse::Ok()</text>
+    <text x="1223" y="339" class="m db">        .json(json!({</text>
+    <text x="1223" y="350" class="m db">           "status":"ingested",</text>
+    <text x="1223" y="361" class="m db">           "threat_score": score</text>
+    <text x="1223" y="372" class="m db">        }))</text>
+    <!-- Set 2 — y=383..713 (seamless loop) -->
+    <text x="1223" y="383" class="m db">// SentinelOps v2.1 — security core</text>
+    <text x="1223" y="394" class="m db">use actix_web::{web, App};</text>
+    <text x="1223" y="405" class="m db">use sqlx::PgPool;</text>
+    <text x="1223" y="416" class="m db">use tracing::{info, warn, error};</text>
+    <text x="1223" y="427" class="m db"> </text>
+    <text x="1223" y="438" class="m dg">#[derive(Debug, Deserialize)]</text>
+    <text x="1223" y="449" class="m b" filter="url(#gloS)">pub struct ThreatEvent {</text>
+    <text x="1223" y="460" class="m db">    pub source_ip: String,</text>
+    <text x="1223" y="471" class="m db">    pub event_type: EventKind,</text>
+    <text x="1223" y="482" class="m db">    pub severity: f32,</text>
+    <text x="1223" y="493" class="m db">    pub timestamp: i64,</text>
+    <text x="1223" y="504" class="m b" filter="url(#gloS)">}</text>
+    <text x="1223" y="515" class="m db"> </text>
+    <text x="1223" y="526" class="m dg">pub async fn ingest_event(</text>
+    <text x="1223" y="537" class="m db">    pool: web::Data&lt;PgPool&gt;,</text>
+    <text x="1223" y="548" class="m db">    ev: web::Json&lt;ThreatEvent&gt;,</text>
+    <text x="1223" y="559" class="m dg">) -&gt; impl Responder {</text>
+    <text x="1223" y="570" class="m db">    let score = analyze(&amp;ev).await;</text>
+    <text x="1223" y="581" class="m db">    if score &gt; CRIT_THRESHOLD {</text>
+    <text x="1223" y="592" class="m yel">        warn!("THREAT: {}", ev.ip);</text>
+    <text x="1223" y="603" class="m db">        trigger_alert(&amp;ev).await;</text>
+    <text x="1223" y="614" class="m db">    }</text>
+    <text x="1223" y="625" class="m db">    sqlx::query!(</text>
+    <text x="1223" y="636" class="m db">        "INSERT INTO events ..."</text>
+    <text x="1223" y="647" class="m db">    ).execute(&amp;**pool).await?;</text>
+    <text x="1223" y="658" class="m g" filter="url(#gloS)">    info!("score={:.3}", score);</text>
+    <text x="1223" y="669" class="m db">    HttpResponse::Ok()</text>
+    <text x="1223" y="680" class="m db">        .json(json!({</text>
+    <text x="1223" y="691" class="m db">           "status":"ingested",</text>
+    <text x="1223" y="702" class="m db">           "threat_score": score</text>
+    <text x="1223" y="713" class="m db">        }))</text>
+  </g>
+</g>
+
+<!-- ===================== DECORATIVE OVERLAYS ===================== -->
+<!-- Top edge glow line -->
+<line x1="0" y1="1" x2="1500" y2="1" stroke="#00D9FF" stroke-width="0.5" opacity="0.15"/>
+<!-- Bottom edge glow line -->
+<line x1="0" y1="399" x2="1500" y2="399" stroke="#00D9FF" stroke-width="0.5" opacity="0.15"/>
+<!-- Thin separators between panel columns -->
+<line x1="285" y1="17" x2="285" y2="387" stroke="#00D9FF" stroke-width="0.3" opacity="0.12"/>
+<line x1="491" y1="17" x2="491" y2="387" stroke="#00D9FF" stroke-width="0.3" opacity="0.12"/>
+<line x1="1005" y1="17" x2="1005" y2="387" stroke="#00D9FF" stroke-width="0.3" opacity="0.12"/>
+<line x1="1205" y1="17" x2="1205" y2="387" stroke="#00D9FF" stroke-width="0.3" opacity="0.12"/>
+<!-- Connecting dots at panel intersections -->
+<circle cx="285" cy="212" r="1.5" fill="#00D9FF" opacity="0.3"/>
+<circle cx="491" cy="212" r="1.5" fill="#00D9FF" opacity="0.3"/>
+<circle cx="1005" cy="212" r="1.5" fill="#00D9FF" opacity="0.3"/>
+<circle cx="1205" cy="212" r="1.5" fill="#00D9FF" opacity="0.3"/>
+
+</svg>
