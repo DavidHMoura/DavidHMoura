@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/DavidHMoura/DavidHMoura/main/banner.png" alt="David Moura — Sentinel Command Center" width="100%"/>
+  <img src="img/david_moura_banner.svg" alt="David Moura — Sentinel Command Center" width="100%"/>
 </div>
 
 ---
