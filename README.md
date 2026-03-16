@@ -1,9 +1,15 @@
-![SENTINEL COMMAND CENTER](img/david_moura_banner.svg)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/DavidHMoura/DavidHMoura/main/banner.png" alt="David Moura — Sentinel Command Center" width="100%"/>
+</div>
 
-```
-  > initiating secure handshake...       [ OK ]
-  > verifying identity: david.moura...   [ OK ]
-  > loading operational profile...       [ OK ]
+---
+
+```shell
+# Protocol : TLS 1.3  |  Cipher  : AES-256-GCM  |  Auth: ED25519
+# Cert     : VALID    |  Chain   : VERIFIED      |  OCSP: STAPLED
+# Session  : 0xA8F3D2 |  uid     : david.moura   |  role: security.engineer
+
+> ACCESS GRANTED — SENTINEL NODE ONLINE
 ```
 
 ---
@@ -12,72 +18,42 @@
 ROOT@DAVIDMOURA:~# whoami
 ```
 
-### Backend Architect · Security Engineer · Linux Systems
+<div align="center">
 
-> *Construindo sistemas que não apenas funcionam — resistem a adversidades.*
-> *Building systems that don't just work — they withstand adversity.*
+### 🦀 Backend Architect · 🛡️ Cybersecurity Specialist · 🐧 Linux Systems
 
-Desenvolvedor Back-end com foco em **alta integridade, escalabilidade e segurança nativa**.
-Especialista em **Java/Spring** com migração ativa de workloads críticos para **Rust** — memory safety e performance extrema.
-Linux é meu ambiente nativo. Segurança não é feature, é arquitetura.
+*Java/Spring para throughput enterprise. Rust para memory safety e performance extrema.*
+*Segurança não é feature — é arquitetura.*
 
-| | |
-|:---|:---|
-| **Foco atual** | Sistemas seguros · Rust · DevSecOps · Arquitetura de backend |
-| **Ambiente** | GNU/Linux Mint · JVM 21 · Rust 1.79 · PostgreSQL 16 |
-| **Localização** | Belo Jardim, PE → João Pessoa / Campina Grande `[out.2026]` |
+</div>
 
 ---
 
 ```
-ROOT@DAVIDMOURA:~# cat /etc/capabilities.conf
+ROOT@DAVIDMOURA:~# system_stats
 ```
 
-| CATEGORIA | TECNOLOGIAS | STATUS |
-|:---|:---|:---:|
-| **Languages** | Rust · Java 21 (Virtual Threads / Loom) · Bash | `ACTIVE` |
-| **Backend** | Spring Boot 3.4+ · Axum · Tokio · Actix-web | `ACTIVE` |
-| **Security** | AppSec · DevSecOps · Zero Trust · Cryptography · Pentesting (Web/API) | `ACTIVE` |
-| **Infrastructure** | Docker · CI/CD Hardening · Trivy · Docker Scout · Nginx | `ACTIVE` |
-| **Systems** | Linux Kernel · OS Hardening · System Auditing · WireGuard | `ACTIVE` |
-| **Data** | PostgreSQL 16 · Secure Schema Design · SQLx | `ACTIVE` |
-| **Protocols** | TLS 1.3 · mTLS · JWT · OAuth2 · HMAC | `ACTIVE` |
+<div align="center">
+
+| ![GitHub Streak](https://streak-stats.demolab.com?user=DavidHMoura&theme=tokyonight&hide_border=true&ring=00FF41&fire=00FF41&currStreakNum=FFFFFF&sideNums=FFFFFF&sideLabels=00FF41&dates=FFFFFF) | ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=DavidHMoura&show_icons=true&theme=tokyonight&hide_border=true&title_color=00FF41&icon_color=00FF41&text_color=FFFFFF&bg_color=020406) |
+|:---:|:---:|
+| ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DavidHMoura&layout=compact&theme=tokyonight&hide_border=true&title_color=00FF41&text_color=FFFFFF&bg_color=020406&langs_count=6) | ![Profile Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DavidHMoura&theme=tokyonight) |
+
+</div>
 
 ---
 
 ```
-ROOT@DAVIDMOURA:~# systemctl status sentinel
+ROOT@DAVIDMOURA:~# tech_stack --categorized
 ```
 
-```
-● sentinel.service — Operational Profile
-     Active: RUNNING
-
-  [✓] secure backend architecture design
-  [✓] rust-based systems and security tooling
-  [✓] web & api vulnerability research
-  [✓] linux kernel hardening and system auditing
-  [✓] devsecops pipeline engineering
-  [✓] zero trust distributed auth patterns
-  [✓] concurrent systems — java virtual threads & rust async/await
-  [ ] ...always learning
-```
-
----
-
-```
-ROOT@DAVIDMOURA:~# tail -f /var/log/sentinel/ops.log
-```
-
-```
-[INFO]  refactoring sentinelops threat ingestion engine  →  Rust / Axum
-[INFO]  hardening linux system auditing scripts
-[INFO]  researching API authentication bypass vectors
-[INFO]  tuning PostgreSQL query security and injection surface
-[INFO]  building memory-safe concurrent services with Tokio
-[INFO]  improving CI/CD pipeline — Trivy + Docker Scout scanning
-[INFO]  documenting zero trust patterns for distributed auth systems
-```
+| ⚙️ Core Systems | 🛡️ Security Layer | 🐧 Infrastructure |
+|:---|:---|:---|
+| 🦀 Rust · Tokio · Axum · SQLx | AppSec · OWASP Top 10 | GNU/Linux · Kernel Tinkering |
+| ☕ Java 21 · Loom · Virtual Threads | DevSecOps · Zero Trust Arch | 🐳 Docker · Container Security |
+| Spring Boot 3.4+ · Spring Security | Pentest Web/API | Nginx · WireGuard · iptables |
+| 🐚 Bash · Shell Scripting | Cryptography · AES · RSA · ECDSA | PostgreSQL 16 · Secure Schema |
+| Actix-web · REST · JSON APIs | JWT · OAuth2 · mTLS · TLS 1.3 | CI/CD · Trivy · Docker Scout |
 
 ---
 
@@ -85,27 +61,34 @@ ROOT@DAVIDMOURA:~# tail -f /var/log/sentinel/ops.log
 ROOT@DAVIDMOURA:~# ls -la projects/
 ```
 
-| PROJETO | STACK | STATUS | POSTURA DE SEGURANÇA |
-|:---|:---|:---:|:---|
-| **[secure-auth-api](https://github.com/DavidHMoura/secure-auth-api)** | Spring Security 6 · JWT | `STABLE` | Token rotation · reuse detection |
-| **[sentinelops](https://github.com/DavidHMoura/sentinelopsproject)** | Rust · Axum · PostgreSQL | `REFACTORING` | Memory-safe · blazing fast threat ingestion |
-| **[compliance-risk-engine](https://github.com/DavidHMoura/compliance-risk-engine)** | Java 21 · Playwright | `STABLE` | Zero attack surface · immutable audit log |
-| **[linux-security-scripts](https://github.com/DavidHMoura)** | Bash · Rust | `ACTIVE` | OS hardening · system auditing |
+| ⚙️ Project | Stack | 🛡️ Security Posture | Status |
+|:---|:---|:---|:---:|
+| **[secure-auth-api](https://github.com/DavidHMoura/secure-auth-api)** | Spring Security 6 · JWT | Token rotation · reuse detection | `STABLE` |
+| **[sentinelops](https://github.com/DavidHMoura/sentinelopsproject)** | 🦀 Rust · Axum · PostgreSQL | Memory-safe · threat ingestion engine | `REFACTORING` |
+| **[compliance-risk-engine](https://github.com/DavidHMoura/compliance-risk-engine)** | Java 21 · Playwright | Zero attack surface · immutable audit log | `STABLE` |
+| **[linux-security-scripts](https://github.com/DavidHMoura)** | Bash · 🦀 Rust | OS hardening · system auditing | `ACTIVE` |
+
+---
+
+<div align="center">
+
+> *"Talk is cheap. Show me the code."* — **Linus Torvalds**
+
+</div>
 
 ---
 
 ```
-ROOT@DAVIDMOURA:~# netstat --connections
+ROOT@DAVIDMOURA:~# connect
 ```
 
-```
-  [ESTABLISHED]  linkedin.com/in/david-h-moura-457063304   ·   protocol: HTTPS
-  [ESTABLISHED]  github.com/DavidHMoura                    ·   protocol: SSH
-```
+<div align="center">
 
-> **LinkedIn →** [linkedin.com/in/david-h-moura-457063304](https://www.linkedin.com/in/david-h-moura-457063304/)
->
-> **GitHub →** [github.com/DavidHMoura](https://github.com/DavidHMoura)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/david-h-moura-457063304/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DavidHMoura)
+[![Followers](https://img.shields.io/github/followers/DavidHMoura?label=Followers&style=for-the-badge&color=00FF41&logo=github&logoColor=white)](https://github.com/DavidHMoura?tab=followers)
+
+</div>
 
 ---
 
@@ -113,13 +96,14 @@ ROOT@DAVIDMOURA:~# netstat --connections
 ROOT@DAVIDMOURA:~# exit
 ```
 
-```
-  identity   :  David Moura      [ VERIFIED ]
-  integrity  :  SHA-512           [ PASSED   ]
-  errors     :  0
-  warnings   :  0
-
-  session closed.
-
-  "Talk is cheap. Show me the code."  — Linus Torvalds
+```shell
+# [SESSION LOG]
+# identity  : David Moura           [VERIFIED]
+# integrity : SHA-512 checksum      [PASSED]
+# cipher    : AES-256-GCM           [INTACT]
+# errors    : 0
+# warnings  : 0
+#
+# Connection encrypted via TLS 1.3
+# Session closed. Stay secure.
 ```
